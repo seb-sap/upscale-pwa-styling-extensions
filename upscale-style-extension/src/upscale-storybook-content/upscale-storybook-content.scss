@@ -1,0 +1,44 @@
+@import '../styles/style';
+
+@mixin headline () {
+  color: $primary_color;
+  font-family: 'Gotham Bold';
+  text-align: center;
+}
+
+@mixin headline_bg () {
+  padding: 12px;
+}
+
+#upscale :host {
+
+  .storybook-article-link-text-button {
+    background-color: $primary_color;
+    color: #FFFFFF;
+    font-weight: 900;
+  }
+
+  .storybook-category-content-background-overlay,
+  .storybook-product-content-background-overlay,
+  .storybook-article-content-background-overlay
+  {
+    @include headline_bg();
+  }
+
+  .storybook-category-content-name,
+  .storybook-product-content-name,
+  .storybook-article-content-name,
+  .storybook-template-id-content-headline
+  {
+    @include headline();
+  }
+
+  .storybook-template-id-content-headline {
+    text-align: center !important;
+  }
+
+  .storybook-article-headline {
+  }
+
+}
+@import 'asym-layout';

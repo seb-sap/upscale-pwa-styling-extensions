@@ -1,0 +1,18 @@
+@import "../styles/variables";
+@import "../styles/mixin";
+:host {
+  .header.container-content {
+    background: mix(#fff, $primary_color, 10%);
+    margin: 0;
+    max-width: unset;
+    width: 100%;
+  }
+
+  .header__top {
+    @include header_container();
+
+    .header__logo-image {
+      width: $nav_loghi_outer_width;
+    }
+  }
+}

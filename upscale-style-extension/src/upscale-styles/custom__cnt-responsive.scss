@@ -1,0 +1,6 @@
+.cnt-responsive {
+  font-size: 24px;
+  @media (min-width: 1024px) {
+    font-size: 40px;
+  }
+}

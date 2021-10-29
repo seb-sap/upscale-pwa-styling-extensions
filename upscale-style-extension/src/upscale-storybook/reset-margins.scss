@@ -1,0 +1,16 @@
+:host {
+  .story-books {
+    .grid {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.upscale-large,
+.upscale-extra-large {
+  :host {
+    .storybook-background {
+      padding: 24px 0 0;
+    }
+  }
+}

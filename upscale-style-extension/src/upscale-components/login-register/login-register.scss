@@ -1,0 +1,29 @@
+@import '../../styles/style';
+
+.login {
+	.login-content {
+		.buttons {
+			.login-button {
+				background-color: $primary-color;
+			}
+			.register-button {
+				background-color: $primary-color;
+			}
+		}
+	}	
+}
+
+.register-content {
+	.register-buttons {
+		.register-button {
+			background-color: $primary-color;
+		}
+	}
+}
+
+
+
+
+
+
+

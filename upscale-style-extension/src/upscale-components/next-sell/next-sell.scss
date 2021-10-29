@@ -1,0 +1,14 @@
+@import "../../styles/variables";
+@import "../../styles/mixin";
+
+.upscale-large,
+.upscale-extra-large,
+.upscale-medium,
+.upscale-extra-small,
+.upscale-small {
+	:host {
+		.container-content {
+			@include custom_text();
+		}
+	}
+}

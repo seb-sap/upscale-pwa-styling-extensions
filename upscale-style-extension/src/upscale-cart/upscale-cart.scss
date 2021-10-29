@@ -1,0 +1,9 @@
+@import '../styles/style';
+:host{
+  .cart-empty {
+
+    &__start-shopping-button {
+      background-color: $primary-color;
+    }
+  }
+}

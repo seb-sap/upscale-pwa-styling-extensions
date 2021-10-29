@@ -1,0 +1,77 @@
+@import '../../styles/style';
+
+@media (max-width: 899px) {
+	.banner {
+		&__headline {
+			@include custom_text();
+		}
+		&__sub-headline {
+			@include custom_text();
+		}
+	}
+	.overview {
+		@include custom_text();
+	}
+	.details-section {
+		.order-details__banner {
+			@include custom_text();
+			}
+		.details-body {
+			@include custom_text();
+		}
+		.shopping-button {
+            background-color: $primary-color;
+		}
+	}
+}
+
+@media (min-width: 900px) {
+	.banner {
+		&__headline {
+			@include custom_text();
+		}
+		&__sub-headline {
+			@include custom_text();
+		}
+	}
+	.overview {
+		@include custom_text();
+	}
+	.details-section {
+		.order-details__banner {
+            @include custom_text();
+		}
+		.details-body {
+			@include custom_text();
+		}
+		.shopping-button {
+            background-color: $primary-color;
+		}
+	}
+}
+
+.overview {
+	@include custom_text();
+
+}
+
+
+.details-section {
+    @include custom_text();
+	.order-details {
+		@include custom_text();
+		.details-body {
+            @include custom_text();
+		}
+		.product-summary {
+            @include custom_text();
+        }
+	}
+	.shopping-button {
+        background-color: $primary-color;
+        &:hover{
+            background-color: $primary-color;
+        }
+	}
+}
+

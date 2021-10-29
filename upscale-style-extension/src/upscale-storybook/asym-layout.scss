@@ -1,0 +1,22 @@
+:host {
+  .story-books {
+    .asym-layout-1 {
+      grid-template-rows: repeat(2, 335px);
+    }
+  }
+
+  @media (max-width: 600px) {
+    .story-books {
+      .asym-layout-6 {
+        grid-template-rows: repeat(2, 220px);
+      }
+    }
+  }
+  @media (min-width: 601px) and (max-width: 900px) {
+    .story-books {
+      .asym-layout-6 {
+        grid-template-rows: 250px;
+      }
+    }
+  }
+}

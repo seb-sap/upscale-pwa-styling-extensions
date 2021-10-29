@@ -1,0 +1,19 @@
+@import '../../styles/style';
+
+.checkout-sections {
+
+	.formgroup-input-container {	  
+		::ng-deep {
+			.formgroup__button {
+				background-color: $primary-color;
+			}
+		}
+	}
+}
+
+.section__button {
+      background-color: $primary-color;
+	  &:hover{
+      background-color: $primary-color;
+   }
+}

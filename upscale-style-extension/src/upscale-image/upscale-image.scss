@@ -1,0 +1,16 @@
+@import '../styles/style';
+.upscale-mobile :host{
+  .container-content {
+    width: 100%;
+  }
+
+  .image-container, .overlay-content {
+    position: static;
+  }
+}
+
+.upscale-tablet :host {
+  .container-content {
+    width: 100%;
+  }
+}

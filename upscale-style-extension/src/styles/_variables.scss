@@ -1,0 +1,42 @@
+//https://coolors.co/ee6352-005c7b-59cd90-f7a072-ff9b42
+
+/* SCSS HEX */
+$fire-opal: #ee6352;
+$blue-sapphire: #005c7b;
+$emerald: #59cd90;
+$light-salmon: #f7a072;
+$deep-saffron: #ff9b42;
+$alice-blue: #d6e4e8;
+
+
+$primary_color: $blue-sapphire;
+$primary_complementary: #7B1F00;
+$primary_analogous: #007B5D;
+
+$primary_light_color: #d5ecf5;
+$primary_darker_color: #043a4c;
+
+$price-color: $emerald;
+$checkout-color: $emerald;
+
+$action-color: $deep-saffron;
+
+$font-family: 'Gotham';
+/**
+  Mappa di font presenti in google font
+  è possibile definire più font custom
+  $custom-fonts: (same: 'Stick', coto: 'Roboto');
+
+  I font vengono importati nel file upscale-style.scss
+ */
+$google-fonts: (samurai: 'Stick');
+
+/*  Tema Samurai */
+$tema-samurai: ("foreground": #FFF, "background": #74BD52);
+$tema-cotoneve: ("foreground": #FFF, "background": #9eb1f1);
+
+$slider-indicator-size: 10px;
+
+$nav_loghi_outer_width: 145px;
+$nav_loghi_width: 75px;
+$nav_loghi_height: 75px;

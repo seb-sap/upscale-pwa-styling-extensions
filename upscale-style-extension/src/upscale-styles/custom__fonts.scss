@@ -1,0 +1,48 @@
+@mixin custom-fonts ($id, $font-family) {
+  #upscale {
+
+    .font-#{$id} {
+
+      //  Storybook-content
+      upscale-storybook-content {
+        .storybook-content {
+          .storybook-article-headline,
+          .storybook-template-id-content-headline {
+            font-family: $font-family
+          }
+
+        }
+      }
+    }
+
+    //  Image
+    upscale-image {
+      &.font-#{$id} {
+        .image-component-content-headline,
+        .image-component-content-subheadline,
+        .link-text,
+        .image-component-link-button {
+          font-family: $font-family, sans-serif;
+        }
+      }
+    }
+
+
+    //  Content slot
+    upscale-content-slot {
+      &.font-#{$id} {
+        .content-slot-component-headline,
+        .content-slot-component-subheadline,
+        .content {
+          font-family: $font-family, sans-serif;
+        }
+      }
+    }
+    //}
+
+  }
+}
+
+@each $id, $font-family in $google-fonts {
+  @include custom-fonts($id, $font-family);
+}
