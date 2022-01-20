@@ -22,16 +22,8 @@ $checkout-color: $emerald;
 $action-color: $deep-saffron;
 
 $font-family: 'Gotham';
-/**
-  Mappa di font presenti in google font
-  è possibile definire più font custom
-  $custom-fonts: (same: 'Stick', coto: 'Roboto');
-
-  I font vengono importati nel file upscale-style.scss
- */
 $google-fonts: (samurai: 'Stick');
 
-/*  Tema Samurai */
 $tema-samurai: ("foreground": #FFF, "background": #74BD52);
 $tema-cotoneve: ("foreground": #FFF, "background": #9eb1f1);
 
