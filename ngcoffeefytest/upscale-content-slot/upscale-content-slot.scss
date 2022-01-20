@@ -1,0 +1,28 @@
+:host {
+    background-color: #f5f5f5;
+    text-align: center;
+     //AV change
+    animation: 2s toggleVisibility;
+    //AV change
+    animation-fill-mode: forwards;
+    //AV change
+    visibility: hidden;
+    h2 {
+        font-size: 28px;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+    h3 {
+        font-weight: 400;
+    }
+}
+
+// AV change
+@keyframes toggleVisibility {
+    99% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
+}
